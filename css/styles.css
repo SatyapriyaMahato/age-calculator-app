@@ -92,7 +92,7 @@ hr{
     border-color: var(--Off-white);
 }
 
-.rounded-button {
+#rounded-button {
     width: 60px;
     height: 60px;
     background: var(--Purple);
@@ -106,7 +106,7 @@ hr{
     text-decoration: none;
 }
   
-.rounded-button:hover {
+#rounded-button:hover {
     background: black;
 }
 .age{ 
