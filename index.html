@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>  
+</head>
+<body>
+  <main>
+    <form id="form" action="/">
+      <div class="input">
+        <div class="input-control">
+          <label for="inputDay">DAY</label>
+          <input id = "dd" type="text" name="day" placeholder="DD">
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="inputMonth">MONTH</label>
+          <input id="mm" type="text" name="month" placeholder="MM">
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="inputYear">YEAR</label>
+          <input id="yyyy" type="text" name="year" placeholder="YYYY">
+          <div class="error"></div>
+        </div>
+      </div>
+      <div class="mid">
+        <div class = "left">
+
+        </div>
+
+        <div class="right">
+          <div class="svgButton">
+            <button class="rounded-button" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35.3" height="35" viewBox="0 0 46 44" class="sxg"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="age">
+        <p><span id="age-day" class="num">--</span> days</p>
+        <p><span id="age-month" class="num">--</span> months</p>
+        <p><span id="age-year" class="num">--</span> years</p>
+      </div>
+    </form> 
+  </main>
+
+  <!-- Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days -->
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Satyapriya Mahato</a>.
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
