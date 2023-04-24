@@ -99,7 +99,7 @@ I am not very confident with the logic and implementation of calculating the age
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Satyapriya Mahato](https://satyapriyamahato.github.io/Personal-Site/)
 - Frontend Mentor - [@satyapriyamahato](https://www.frontendmentor.io/profile/satyapriyamahato)
 - Twitter - [@satyapriyamahto](https://www.twitter.com/satyapriyamahto)
 
