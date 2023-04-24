@@ -49,8 +49,8 @@ This is the javascript code for the project.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/SatyapriyaMahato/age-calculator-app)
+- Live Site URL: [age-calculator-app](https://satyapriyamahato.github.io/age-calculator-app/)
 
 ## My process
 
