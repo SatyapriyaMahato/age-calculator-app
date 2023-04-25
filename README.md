@@ -36,16 +36,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/html.png)
-This is the html code for the project.
-
-![](screenshots/css.png)
-This is the css code for the project.
-
-![](screenshots/js.png)
-This is the javascript code for the project.
-
-
+![](screenshots/solution.jpg)
 
 ### Links
 
