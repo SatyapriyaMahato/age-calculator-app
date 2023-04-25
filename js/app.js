@@ -1,7 +1,7 @@
-const form = document.getElementById('form');
-const day = document.getElementById('dd');
-const month = document.getElementById('mm');
-const year = document.getElementById('yyyy');
+const form = document.getElementById('form'),
+      day = document.getElementById('dd'),
+      month = document.getElementById('mm'),
+      year = document.getElementById('yyyy');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
 
         displayAge(day, month, year);
     };
-    
+
 });
 
 const setError = (element, message) => {
@@ -33,7 +33,7 @@ const setSuccess = element => {
 
 
 const validateInputs = () => {
-    
+
     const dayValue = day.value.trim();
     const monthValue = month.value.trim();
     const yearValue = year.value.trim();
@@ -73,14 +73,14 @@ const validateInputs = () => {
 
     if(dayValue === '') {
         setError(day, 'This field is required');
-        
+
     } else if (dayValue >'31'  || dayValue <= '0') {
         setError(day, 'Must be a valid day');
-        
+
 
     }else if (dayValue>'30' && (month === '04' || month === '06' || month === '09' ||month === '11')) {
         setError(day, 'Must be a valid day');
-        
+
 
     }else if (dayValue >'28' && monthValue === '02') {
         if(dayValue === '29' && checkLeapYear(Number(yearValue))){
@@ -89,8 +89,8 @@ const validateInputs = () => {
             cd = true;
         }else{
             setError(day, 'Must be a valid day');
-            
-        } 
+
+        }
     } else {
         setSuccess(day);
         d = Math.abs(d2 - day.value.trim());
@@ -102,8 +102,8 @@ const validateInputs = () => {
         document.getElementById('age-month').textContent = m;
         document.getElementById('age-year').textContent = y;
     }
-   
-    
+
+
 };
 
 // program to check leap year

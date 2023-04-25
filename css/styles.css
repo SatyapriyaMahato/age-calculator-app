@@ -21,9 +21,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--Light-grey);
+    background-color: var(--Off-white);
     font-family: 'Poppins', sans-serif;
-    
+
 }
 main{
     background-color: var(--White);
@@ -37,9 +37,9 @@ main{
 .input{
     display: flex;
     flex-direction: row;
-    align-items: start; 
-    min-width: 450px;    
-}  
+    align-items: start;
+    min-width: 450px;
+}
 
 label{
     font-size: 8px;
@@ -55,16 +55,16 @@ input[type=text]{
     font-size: 22px;
     margin-right: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px; 
+    border-radius: 5px;
     color: black;
-    caret-color: var(--Purple);  
+    caret-color: var(--Purple);
 }
 ::placeholder{
     color: var(--Smokey-grey);
 }
 input[type=text]:hover{
     border-color: var(--Purple);
-    
+
 }
 input[type=text]:focus{
     outline: none;
@@ -74,17 +74,17 @@ input[type=text]:focus{
     height: 30px;
     padding-top: 30px;
     display: flex;
-        
+
 }
 .left{
-    background-color: var(--Light-grey); text-align: left; 
-    width: 100%; 
+    background-color: var(--Light-grey); text-align: left;
+    width: 100%;
     height: 1px;
 
 }
 .right{
     margin-top: -30px;
-    
+
 }
 
 hr{
@@ -105,12 +105,12 @@ hr{
     border: none;
     text-decoration: none;
 }
-  
+
 #rounded-button:hover {
     background: black;
 }
-.age{ 
-    height: 200px;  
+.age{
+    height: 200px;
 }
 .num{
     font-weight: 800;
@@ -164,13 +164,13 @@ p{
     .mid{
         flex-direction: column;
         align-items: center;
-        margin: 20px 0px 20px 0px;
-       
+        margin: 20px 0 20px 0;
+
     }
     .right{
         margin: -30px;
     }
-     
+
 
 }
 
